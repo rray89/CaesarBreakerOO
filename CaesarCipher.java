@@ -19,7 +19,7 @@ public class CaesarCipher {
 	{
 		this.key = key1;
 		this.key2 = key2;
-		////shiftedAlphabet2 = ALPHABET.substring(key2) + ALPHABET.substring(0, key2);
+		//shiftedAlphabet2 = ALPHABET.substring(key2) + ALPHABET.substring(0, key2);
 	}
 
 	//method encrypt that encrypt a string with a key

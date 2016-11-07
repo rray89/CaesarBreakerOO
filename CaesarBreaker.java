@@ -111,21 +111,8 @@ public class CaesarBreaker {
 	//main
 	public static void main(String[] args) throws IOException {
 		
-		System.out.println("Test method encrypt and decrypt (single key):");
-		CaesarCipher cc = new CaesarCipher(15);
-		//String message = Openfile("src/wordsLotsOfEs.txt");
-		String message = "Can you imagine life WITHOUT the internet AND computers in your pocket?";
-		String encrypted = cc.encrypt(message);
-		System.out.println("Original message is \n" + message);
-		System.out.println("Encrypted message(key=15) is \n"+encrypted);
-		//System.out.println("Decrypted message is \n"+decrypt(message));
+		//testing code here
 		
-//		System.out.println("=================================================");
-//		System.out.println("Test method decryptTwoKeys (double key):");
-//		//String message2 = Openfile("src/mysteryTwoKeysQuiz.txt");
-//		String message2 = "Hfs cpwewloj loks cd Hoto kyg Cyy.";
-//		System.out.println("Original message is \n" + message2);
-//		System.out.println("Decrypted message is \n"+decryptTwoKeys(message2,14,24));
 	}
 
 }
